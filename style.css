@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: hsl(212, 45%, 89%);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}   
+
+#app{
+    display: flex;
+    flex-direction: column;
+
+    width: 280px;
+    height: 450px;
+
+    background: #FFFFFF;
+
+    border-radius: 20px;
+}
+
+.container{
+    margin: 15px 15px 15px 15px;
+}
+
+img{
+    width: 250px;
+    border-radius: 10px;
+}
+
+.texts{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin: 15px;
+
+    text-align: center;
+}
+
+.texts span{
+    font-size: 17px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.texts p{
+    font-size: 15px;
+}
